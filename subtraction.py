@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  2 04:19:02 2022
-
-@author: Harvi
-"""
-
-
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 @app.route("/subtraction")
